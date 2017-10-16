@@ -69,7 +69,7 @@ int     get_fcword_n_putsize(char *str, int p_index, int* ptr_to_val)
                 while (!ft_is_space(str[p_index]))
                     p_index++;
 
-                /* return the size of the word without \0 */
+                /* put the size of the word without \0 */
                 *ptr_to_val = (p_index - beg);
                 break ;
             }
