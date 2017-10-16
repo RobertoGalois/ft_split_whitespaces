@@ -2,8 +2,10 @@
 C function that take a string (char*) and return an array char*[] containing each word of the string and finishing with a 0, to know when the array finish
 
 rem: a space is 
+<code>
 ' '
 or 
 '\t'
 or
 '\n'
+</code>
